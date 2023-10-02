@@ -1,0 +1,19 @@
+---
+title: Recipes
+description: Simple solutions to common problems when building websites with Eleventy and WebC.
+layout: layouts/default.webc
+override:tags: []
+eleventyExcludeFromCollections: true
+---
+
+<nav class="mbs-xl" style="--space: var(--space-xs)">
+	<ul role="list">
+		<li data-layout="cluster">
+			<a href="/">Home</a>
+			<chevrons-right></chevrons-right>
+		</li>
+	</ul>
+</nav>
+<h1>Recipes</h1>
+
+<card-carousel tag="recipe"></card-carousel>

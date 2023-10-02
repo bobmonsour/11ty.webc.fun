@@ -1,0 +1,31 @@
+<footer webc:root="override">
+	<p>
+		<copyright></copyright>
+		View on <a href="https://github.com/darthmall/11ty.webc.fun/">GitHub</a>.
+		<a href="/colophon/">Colophon</a>.
+		<a href="/feed.xml">RSS</a>.
+	</p>
+	<p>
+		This work is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>.
+		</p>
+</footer>
+
+<style webc:scoped>
+	:host {
+		margin-block-start: auto;
+		padding-block: var(--space-xl);
+
+		font-size: var(--step--1);
+	}
+
+	:host::before {
+		display: block;
+		content: "";
+
+		margin-block-end: var(--space-s);
+		height: 1px;
+		width: 33%;
+
+		background-color: var(--surface-4);
+	}
+</style>

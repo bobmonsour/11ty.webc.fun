@@ -1,0 +1,20 @@
+---
+layout: layouts/default.webc
+---
+
+<hero-block>
+	<h1>
+		11ty &amp;<br>
+		WebC
+	</h1>
+	<p @raw="site.description"></p>
+</hero-block>
+
+<article id="skip" tabindex="-1" @raw="content"></article>
+
+<h2>Recently Updated</h2>
+<card-carousel tag="recipe" :limit="site.numRecent"></card-carousel>
+
+<div class="mbs-l">
+	<a href="/recipes/">View all recipes</a>
+</div>

@@ -1,0 +1,12 @@
+{
+	"title": "11ty ♥ WebC",
+	"description": "Two great tastes that taste great together",
+	"url": "https://11ty.webc.fun/",
+	"author": {
+		"name": "W. Evan Sheehan",
+		"email": "darth_mall@pm.me",
+		"url": "https://darthmall.net/"
+	},
+	"numRecent": 3,
+	"dateFormat": "d LLLL yyyy"
+}

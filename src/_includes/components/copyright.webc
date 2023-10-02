@@ -1,0 +1,10 @@
+<script webc:type="js" webc:root="override">
+	const now = new Date();
+	let author = $data.site.author.name;
+
+	if ($data.site.author.url) {
+		author = `<a href="${$data.site.author.url}">${author}</a>`;
+	}
+
+	`&copy; ${now.getFullYear()} ${author}.`;
+</script>
