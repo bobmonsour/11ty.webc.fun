@@ -28,7 +28,7 @@
 <body>
 	<aside>
 		<p>
-			<strong>Deprection Notice.</strong> This site used to live at 11ty.web.fun, but is now here...for now.</p>
+			<strong>Deprecation Notice.</strong> This site used to live at 11ty.webc.fun, but is now here...for now.</p>
 	</aside>
 	<template @raw="content" webc:nokeep></template>
 </body>
